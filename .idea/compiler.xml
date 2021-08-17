@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ApiAutoTest" />
         <module name="ApiAutpTest" />
+        <module name="KikaApiRegressionTesting" />
       </profile>
     </annotationProcessing>
   </component>

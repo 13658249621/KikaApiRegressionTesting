@@ -6,13 +6,12 @@ import com.opencsv.exceptions.CsvException;
 import com.opencsv.exceptions.CsvMalformedLineException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
 import java.io.*;
 import java.nio.charset.Charset;
 import java.util.List;
 
 public class CsvAction {
-    final String CsvFilePath = "/Users/xm20190901/Downloads/接口自动化.csv";
+    final String CsvFilePath = "/Users/timo/Downloads/接口自动化.csv";
     final int responseCodeColumn = 9;//响应码所在列数
     final int errorCodeColumn = 10;//errorCode所在列数
     final int errorMsgColumn = 11;//errorMsg所在列数
